@@ -13,7 +13,7 @@ body {
 /* header */
 #logo {
     float: left;
-    font-size: 280%;
+    font-size: 300%;
     margin: 5px 0 10px 30px;
     color: white;
 }
@@ -27,6 +27,8 @@ header {
     background-color: black;
     color: azure;
     height: 80px;
+    margin: 0;
+    padding: 0;
 }
 
 /* navigation links */
@@ -57,7 +59,7 @@ header {
     color: orange;
 }
 
-.active {
-    /* border-bottom: 1px solid green; */
+#menu .active {
     color: green;
 }
+
