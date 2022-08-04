@@ -69,9 +69,36 @@ header {
 
 /* index page */
 
+.main-banner {
+    width: 100%;
+    height: 700px;
+    position:relative;
+    overflow: hidden;
+    text-align: center;
+}
+
 #main-image {
     width: 100%;
     height: 700px;
     overflow: hidden;
     object-fit: cover;
+    background: url(../images/trees-g15d972f20_1920.jpg) no-repeat center center;
+}
+
+#tagline {
+    color: white;
+    font-size: 200%;
+    font-style: italic;
+    letter-spacing: .5rem;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#home-about {
+    color: orange;
+    width: 50%;
+    padding: 30px;
+    float: left;
 }
