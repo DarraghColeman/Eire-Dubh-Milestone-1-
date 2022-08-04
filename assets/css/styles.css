@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Uncial+Antiqua&display=swap');
+
+body {
+    font-family: Montserrat, sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Uncial Antiqua', cursive;
+}
