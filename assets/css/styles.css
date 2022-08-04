@@ -1,9 +1,63 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Uncial+Antiqua&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 body {
     font-family: Montserrat, sans-serif;
 }
 
+/* header */
+#logo {
+    float: left;
+    font-size: 280%;
+    margin: 5px 0 10px 30px;
+    color: white;
+}
+
 h1, h2, h3 {
     font-family: 'Uncial Antiqua', cursive;
+    font-weight: 200;
+}
+
+header {
+    background-color: black;
+    color: azure;
+    height: 80px;
+}
+
+/* navigation links */
+
+#menu {
+    font-size: 100%;
+    letter-spacing: 4px;
+}
+
+#menu, #logo {
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+    padding-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    /* border-bottom: 1px solid orange; */
+    color: orange;
+}
+
+.active {
+    /* border-bottom: 1px solid green; */
+    color: green;
 }
