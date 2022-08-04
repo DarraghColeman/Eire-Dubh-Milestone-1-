@@ -17,9 +17,10 @@
     <header>
         <div>
             <a href="index.html">
-                <h1 id="logo"><span style="color:green;">É</span>ire <span style="color:orange;">D</span>ubh</h1>
+                <h1 id="logo"><span style="color:#32cd32;">É</span>ire <span style="color:#FFA500;">D</span>ubh</h1>
             </a>
             <nav id="menu">
+                <input id="nav-toggle" type="checkbox">
                 <ul>
                     <li>
                         <h3><a href="contact.html">Contact</a></h3>
@@ -34,6 +35,11 @@
                         <h3><a href="index.html" class="active">Home</a></h3>
                     </li>
                 </ul>
+                <label for="nav-toggle" class="burger-menu">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </label>
             </nav>
         </div>
     </header>
@@ -43,28 +49,40 @@
         <div>
             <figure>
                 <img src="assets/images/darkhedges.jpg" alt="The dark hedges in Northern Ireland" id="main-image">
-                <figcaption>
-                    <h2 id="tagline" style="font-style: italic;">Not all those who wander...</h2>
+                <figcaption id="tagline">
+                    <h2>Not all those who wander...</h2>
                 </figcaption>
             </figure>
         </div>
     </section>
 
 
-    <section id="about">
+    <section class="container">
         <div id="about-text">
-            <p>Forget Saint Brendan and Joe Biden, never mind Maureen O'Hara and Barak O'Bama, Éire Dubh looks at obscure figures and events of the Irish diaspora 
-            that weren't anything to write home about.</p>
-            <p>As much as we laud the many successful emigrants, and often attempt to lay claim to those with tenuous connections to our tiny island, 
-            not all those who wandered abroad brought <span style="font-style: italic;">craic agus ceol</span>.</p>
+            <h1 style="font-size:2rem; text-align: center;">About</h1>
+            <br>
+            <hr>
+            <br>
+            <p>Forget Saint Brendan and Joe Biden.</p>
+            <p>Never mind Maureen O'Hara and Barak O'Bama.</p>
+            <p><span style="font-style: italic;"><span style="color: green;">É</span>ire <span style="color:#FFA500">D</span>ubh</span> looks at obscure figures and events of the Irish diaspora 
+                that maybe weren't much to write home about.</p>
+            <br>
+            <p>As we tend to laud the many successful and famous emigrants, and often attempting to lay claim on those with tenuous connections 
+                to our tiny island, many notable people and events abroad have gone under the radar. The phrase <span style="font-style: italic;">"Ah sure, we export all our best stuff!"</span>
+                isn't so true as not all those who wandered abroad brought <span style="font-style: italic;">craic agus ceol</span>.</p>
+            <br>
+            <p>So for better or for worse, we bring you a collection of histories of the <span style="font-style: italic;">down-trodden, dark</span> and down-right <span style="font-style: italic;">dispicable</span> diaspora of Ireland.</p>
         </div>
-        <div>
-            <img src="assets/images/billythekid.png" alt="A wanted poster of Billy The Kid" id="about-image">
+        <div id="about-image">
+            <img src="assets/images/billythekid.png" alt="A wanted poster of Billy The Kid">
         </div>
     </section>
 
-    <section>Irish diaspora facts & map</section>
-    <section>Links to internal pages</section>
+    <section id="diaspora">Irish diaspora facts & map</section>
+
+    <section id="article-links">Links to internal pages</section>
+
     <footer>Social media links</footer>
 </body>
 
