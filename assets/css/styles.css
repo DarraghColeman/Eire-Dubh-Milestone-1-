@@ -31,6 +31,7 @@ header {
     margin: 0;
     padding: 0;
     position: fixed;
+    z-index: 1;
 }
 
 
@@ -74,7 +75,6 @@ header {
     height: 700px;
     position:relative;
     overflow: hidden;
-    text-align: center;
 }
 
 #main-image {
@@ -82,7 +82,8 @@ header {
     height: 700px;
     overflow: hidden;
     object-fit: cover;
-    background: url(../images/trees-g15d972f20_1920.jpg) no-repeat center center;
+    background: url(../images/darkhedges.jpg) no-repeat center center;
+    text-align: center;
 }
 
 #tagline {
@@ -96,9 +97,30 @@ header {
     transform: translate(-50%, -50%);
 }
 
-#home-about {
-    color: orange;
+#about {
+    margin:0;
+    border: 0;
+    padding: 0;
+    background-color: orange;
+    width:100%;
+    height:500px;
+    text-align: center;
+}
+
+#about-text {
+    background-color: orange;
     width: 50%;
     padding: 30px;
     float: left;
+    text-align: center;
+}
+
+#about-image {
+    height: 428px;
+    width: 311px;
+    overflow: hidden;
+    object-fit:cover;
+    background: url(../images/billythekid.png) no-repeat center center;
+    float: right;
+    margin: 30px;
 }
