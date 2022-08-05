@@ -8,72 +8,37 @@
     <meta name="description" content="Obscure and dark Irish history website">
     <meta name="keywords" content="eire dubh, irish, history, obscure, dark, irish diaspora, emigrants">
 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Uncial+Antiqua&display=swap">
     <link rel="stylesheet" href="assets/css/styles.css">
     <title>Éire Dubh</title>
 </head>
 
 <body>
 
-    <nav>
-        <input type="checkbox" id="check">
-        <label for="check" class="checkbtn">
-            <i class="fas fa-bars"></i>
-        </label>
-        <label class="logo">
-            <a href="index.html">
-            <h1><span style="color:#32cd32;">É</span>ire <span style="color:#FFA500;">D</span>ubh</h1>
-            </a>
-        </label>
-        <ul>
-            <li><a href="index.html" class="active">Home</a></li>
-            <li><a href="people.html">People</a></li>
-            <li><a href="events.html">Events</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
+        <nav>
+            <input id="nav-toggle" type="checkbox">
+            <div class="logo">
+                <h2>Éire Dubh</h2>
+            </div>
+            
+            <ul class="links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">People</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <label for="nav-toggle" class="burger-menu">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </label>
+        </nav>
 
-    <section id="main-banner">
-        <div>
-            <figure>
-                <img src="assets/images/darkhedges.jpg" alt="The dark hedges in Northern Ireland" id="main-image">
-                <figcaption id="tagline">
-                    <h2>Not all those who wander...</h2>
-                </figcaption>
-            </figure>
-        </div>
-    </section>
-
-
-    <section class="container">
-        <div id="about-text">
-            <h1 style="font-size:2rem; text-align: center;">About</h1>
-            <br>
-            <hr>
-            <br>
-            <p>Forget Saint Brendan and Joe Biden.</p>
-            <p>Never mind Maureen O'Hara and Barak O'Bama.</p>
-            <p><span style="font-style: italic;"><span style="color: green;">É</span>ire <span style="color:#FFA500">D</span>ubh</span> looks at obscure figures and events of the Irish diaspora 
-                that maybe weren't much to write home about.</p>
-            <br>
-            <p>As we tend to laud the many successful and famous emigrants, and often attempting to lay claim on those with tenuous connections 
-                to our tiny island, many notable people and events abroad have gone under the radar. The phrase <span style="font-style: italic;">"Ah sure, we export all our best stuff!"</span>
-                isn't so true as not all those who wandered abroad brought <span style="font-style: italic;">craic agus ceol</span>.</p>
-            <br>
-            <p>So for better or for worse, we bring you a collection of histories of the <span style="font-style: italic;">down-trodden, dark</span> and down-right <span style="font-style: italic;">dispicable</span> diaspora of Ireland.</p>
-        </div>
-        <div id="about-image">
-            <img src="assets/images/billythekid.png" alt="A wanted poster of Billy The Kid">
-        </div>
-    </section>
-
-    <section id="diaspora">Irish diaspora facts & map</section>
-
-    <section id="article-links">Links to internal pages</section>
-
-    <footer>Social media links</footer>
-
-    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
-
+        <section>
+            <div class="container">
+                <img src="assets/images/darkhedges.jpg" alt="">
+            </div>
+        </section>
 </body>
 
 </html>
