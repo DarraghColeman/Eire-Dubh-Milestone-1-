@@ -188,6 +188,16 @@ nav .burger-menu .line {
     justify-content: space-between;
 }
 
+.diaspora-title {
+    width: 100%;
+    padding: 50px;
+}
+
+.diaspora-title img {
+    display: flex;
+    width: 100%;
+}
+
 .diaspora {
     width: 100%;
     background-color: #008000;
