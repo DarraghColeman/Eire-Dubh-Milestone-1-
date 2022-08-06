@@ -17,6 +17,11 @@ h1, h2, h3 {
     font-family: 'Uncial Antiqua', Roboto, sans-serif;
 }
 
+hr {
+    height: 3px;
+    border-radius: 6px;
+    background:linear-gradient(to right, #008000, white, #FFA500);
+}
 
 
 /****** Navbar ******/
@@ -69,6 +74,7 @@ nav .links a {
 
 nav .links a:hover {
     color: #FFA500;
+    transition: .3s;
 }
 
 nav .links a:active {
@@ -100,6 +106,7 @@ nav .burger-menu .line {
     border-radius: 3px;
 }
 
+/******* tablet & small devices *******/
 @media screen and (max-width:768px){
     nav .logo {
         float: none;
@@ -161,3 +168,14 @@ nav .burger-menu .line {
     left: 25%;
 }
 
+.container-one {
+    width: 100%;
+    height: 500px;
+    padding: 70px;
+    background-color: #FFA500;
+}
+
+#about-text h2 {
+    text-align: center;
+    float: left;
+}
