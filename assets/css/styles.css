@@ -17,15 +17,7 @@ h1, h2, h3 {
     font-family: 'Uncial Antiqua', Roboto, sans-serif;
 }
 
-.container {
-    position: relative
-    margin-top: 100px;
-}
 
-.container img {
-    display: block;
-    width: 100%;
-}
 
 /****** Navbar ******/
 nav {
@@ -144,3 +136,28 @@ nav .burger-menu .line {
     }
 
 }
+
+/***** index *****/
+
+.banner {
+    position: relative
+    margin-top: 100px;
+}
+
+.banner img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+.banner-text {
+    color: #ffffff;
+    font-size: 2em;
+    font-style: italic;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    position: absolute;
+    bottom:50%;
+    left: 25%;
+}
+

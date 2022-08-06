@@ -8,37 +8,37 @@
     <meta name="description" content="Obscure and dark Irish history website">
     <meta name="keywords" content="eire dubh, irish, history, obscure, dark, irish diaspora, emigrants">
 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Uncial+Antiqua&display=swap">
     <link rel="stylesheet" href="assets/css/styles.css">
     <title>Éire Dubh</title>
 </head>
 
 <body>
-    <header>
-        <a href="people.html">
-            <h1 id="logo"><span style="color:green;">É</span>ire <span style="color:orange;">D</span>ubh</h1>
-        </a>
-        <nav id="menu">
-            <ul>
-                <li>
-                    <h3><a href="contact.html" class="active">Contact</a></h3>
-                </li>
-                <li>
-                    <h3><a href="events.html">Events</a></h3>
-                </li>
-                <li>
-                    <h3><a href="people.html">People</a></h3>
-                </li>
-                <li>
-                    <h3><a href="index.html">Home</a></h3>
-                </li>
+
+        <nav>
+            <input id="nav-toggle" type="checkbox">
+            <div class="logo">
+                <h1 id="logo"><span style="color:#008000;">É</span>ire <span style="color:#FFA500;">D</span>ubh</h1>
+            </div>
+            
+            <ul class="links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="people.html">People</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
             </ul>
+            <label for="nav-toggle" class="burger-menu">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </label>
         </nav>
-    </header>
-    <section>Banner/Main image & catchy tagline</section>
-    <section>Longer website description</section>
-    <section>Irish diaspora facts & map</section>
-    <section>Links to internal pages</section>
-    <footer>Social media links</footer>
+
+        <section>
+            <div class="container">
+                <img src="assets/images/darkhedges.jpg" alt="A picture of the dark hedges in Northern Ireland">
+            </div>
+        </section>
 </body>
 
 </html>
