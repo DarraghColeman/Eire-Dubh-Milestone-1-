@@ -188,12 +188,7 @@ nav .burger-menu .line {
     justify-content: space-between;
 }
 
-.diaspora-title {
-    width: 100%;
-    padding: 50px;
-}
-
-.diaspora-title img {
+.diaspora img {
     display: flex;
     width: 100%;
 }
@@ -205,6 +200,7 @@ nav .burger-menu .line {
     display: flex;
 }
 
-.diaspora img {
-    width: 100%;
+.diaspora-text {
+    padding: 0 50px 0 50px;
+    text-align:justify;
 }
