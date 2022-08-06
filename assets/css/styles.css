@@ -204,3 +204,30 @@ nav .burger-menu .line {
     padding: 0 50px 0 50px;
     text-align:justify;
 }
+
+.people-links {
+    background-image: url('../images/darkhedges.jpg');
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+.people-links div {
+    color: #ffffff;
+    text-align: center;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    width:40%;
+    height: 280px;
+    float: left;
+    padding:10px;
+    margin: 20px;
+}
+
+#james {
+    float: right;
+}
+
