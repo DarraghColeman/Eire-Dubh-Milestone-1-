@@ -14,7 +14,7 @@ body {
 }
 
 h1, h2, h3 {
-    font-family: 'Uncial Antiqua', cursive;
+    font-family: 'Uncial Antiqua', Roboto, sans-serif;
 }
 
 .container {
@@ -27,6 +27,7 @@ h1, h2, h3 {
     width: 100%;
 }
 
+/****** Navbar ******/
 nav {
     position: fixed;
     z-index: 10;
@@ -67,11 +68,23 @@ nav .links li {
 nav .links a {
     display: block;
     padding: 1em;
-    background-color: rgba(0,0,0,.1);
-    font-size: 16px;
+    font-family: 'Uncial Antiqua', Roboto, sans-serif;
+    font-size: 1rem;
     font-weight: bold;
     color: #ffffff;
     text-decoration: none;
+}
+
+nav .links a:hover {
+    color: #FFA500;
+}
+
+nav .links a:active {
+    color: #008000;
+}
+
+.links .active {
+    color: #008000;
 }
 
 #nav-toggle {
@@ -93,7 +106,6 @@ nav .burger-menu .line {
     background-color: #ffffff;
     margin: 5px;
     border-radius: 3px;
-    transition: all .3s ease-in-out;
 }
 
 @media screen and (max-width:768px){
