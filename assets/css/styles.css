@@ -34,7 +34,8 @@ nav {
     padding: 0 5%;
     font-family: 'Montserrat', sans-serif;
     height: 100px;
-    background-color: #000000;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(10,79,84,1) 100%);
+    /* background-color: #000000; */
 }
 
 nav .logo {
@@ -207,34 +208,69 @@ nav .burger-menu .line {
 
 .people-links {
     background-image: url('../images/darkhedges.jpg');
-    height: 300px;
+    display: flex;
+    justify-content: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     width: 100%;
     overflow: hidden;
+    flex-wrap: wrap;
 }
 
-.people-links div {
+.card {
     color: #ffffff;
-    background-color: rgba(0,128,128,.3);
-    text-align: center;
+    background-color: rgba(0,128,128,.5);
     border: 1px solid #ffffff;
     border-radius: 10px;
-    width:40%;
-    height: 280px;
-    float: left;
-    padding:10px;
+    width: 300px;
+    height: 400px;
     margin: 20px;
-    bottom: 20px;
 }
 
-#mary {
-    display: flex;
-    justify-content: center;
+.card h2 {
+    padding: 10px;
+    text-align: center;
 }
 
-#james {
-    float: right;
+.card p {
+    padding: 10px;
 }
 
+.card a {
+    background: linear-gradient(0deg, rgba(3,25,25,1) 0%, rgba(38,246,225,0.9868989832261029) 100%);
+    color: #ffffff;
+    border-radius: 3px;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    text-decoration: none;
+}
+
+.card a:active {
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(10,79,84,1) 100%);
+}
+
+.card:hover {
+    color: #ffffff;
+    background-color: rgba(10,79,84,.9);
+    transform: scale(1.03);
+    transition: all 1s ease-in;
+    /* cursor: pointer; */
+}
+
+.card-image {
+    height: 180px;
+    margin-bottom: 10px;
+    border-radius: 10px 10px 0 0;
+    background-size: cover;
+}
+
+.card1 {
+    background-image: url(../images/Typhoid_Mary.jpg);
+}
+
+.card2 {
+    background-image: url(../images/james-jameson.jpg);
+}
