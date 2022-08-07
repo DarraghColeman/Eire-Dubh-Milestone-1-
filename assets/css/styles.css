@@ -171,7 +171,7 @@ nav .burger-menu .line {
     left: 25%;
 }
 
-.about {
+.container-one {
     width: 100%;
     /* background-color: #FFA500; */
     padding: 50px;
@@ -183,25 +183,25 @@ nav .burger-menu .line {
     text-align:justify;
 }
 
-.about img {
+.container-one img {
     height: 350px;
     display: flex;
     justify-content: space-between;
 }
 
-.diaspora img {
-    display: flex;
-    width: 100%;
-}
-
-.diaspora {
+.container-two {
     width: 100%;
     /* background-color: #008000; */
     padding: 50px;
     display: flex;
 }
 
-.diaspora-text {
+.container-two img {
+    display: flex;
+    width: 100%;
+}
+
+#diaspora-text {
     padding: 0 50px 0 50px;
     text-align:justify;
 }
