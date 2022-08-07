@@ -217,6 +217,7 @@ nav .burger-menu .line {
 
 .people-links div {
     color: #ffffff;
+    background-color: rgba(0,128,128,.3);
     text-align: center;
     border: 1px solid #ffffff;
     border-radius: 10px;
@@ -225,6 +226,12 @@ nav .burger-menu .line {
     float: left;
     padding:10px;
     margin: 20px;
+    bottom: 20px;
+}
+
+#mary {
+    display: flex;
+    justify-content: center;
 }
 
 #james {
