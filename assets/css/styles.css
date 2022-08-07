@@ -34,7 +34,7 @@ nav {
     padding: 0 5%;
     font-family: 'Montserrat', sans-serif;
     height: 100px;
-    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(10,79,84,1) 100%);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(1, 50, 50, 1) 100%);
     /* background-color: #000000; */
 }
 
@@ -107,7 +107,7 @@ nav .burger-menu .line {
     border-radius: 3px;
 }
 
-/******* tablet & small devices *******/
+/* tablet & small devices */
 @media screen and (max-width:768px){
     nav .logo {
         float: none;
@@ -173,7 +173,7 @@ nav .burger-menu .line {
 
 .about {
     width: 100%;
-    background-color: #FFA500;
+    /* background-color: #FFA500; */
     padding: 50px;
     display: flex;
 }
@@ -196,7 +196,7 @@ nav .burger-menu .line {
 
 .diaspora {
     width: 100%;
-    background-color: #008000;
+    /* background-color: #008000; */
     padding: 50px;
     display: flex;
 }
@@ -220,7 +220,7 @@ nav .burger-menu .line {
 
 .card {
     color: #ffffff;
-    background-color: rgba(0,128,128,.5);
+    background-color: rgba(0,128,128,.6);
     border: 1px solid #ffffff;
     border-radius: 10px;
     width: 300px;
@@ -238,7 +238,7 @@ nav .burger-menu .line {
 }
 
 .card a {
-    background: linear-gradient(0deg, rgba(3,25,25,1) 0%, rgba(38,246,225,0.9868989832261029) 100%);
+    background: linear-gradient(0deg, rgba(3,25,25,1) 0%, rgba(19, 152, 139, 0.98) 100%);
     color: #ffffff;
     border-radius: 3px;
     padding: 15px 20px;
@@ -254,7 +254,7 @@ nav .burger-menu .line {
 
 .card:hover {
     color: #ffffff;
-    background-color: rgba(10,79,84,.9);
+    background-color: rgba(1, 50, 50, 1);
     transform: scale(1.03);
     transition: all 1s ease-in;
     /* cursor: pointer; */
@@ -285,11 +285,12 @@ nav .burger-menu .line {
 }
 
 
-/***** footer *****/
+/******** footer *********/
+
 footer {
     height: 100px;
     width: 100%;
-    background: linear-gradient(0deg, rgba(10,79,84,1) 0%, rgba(0,0,0,1) 100%);
+    background: linear-gradient(0deg, rgba(1, 50, 50, 1) 0%, rgba(0,0,0,1) 100%);
 }
 
 .socials {
