@@ -23,6 +23,11 @@ hr {
     background:linear-gradient(to right, #008000, white, #FFA500);
 }
 
+.hr-center {
+    width: 50%;
+    margin-left: 25%;
+}
+
 
 /****** Navbar ******/
 nav {
@@ -367,6 +372,7 @@ footer {
 
 .container-table p {
     margin-left: 50px;
+    margin-right: 50px;
 }
 
 .container-table table {
@@ -405,5 +411,15 @@ footer {
 
 .table tbody tr:last-of-type {
     border-bottom: 3px solid rgba(0,128,128,.6);
+}
+
+.container-three {
+        display: block;
+        padding: 20px 50px 20px 50px;
+        margin-bottom: 20px;
+}
+
+.container-three h2 {
+    text-align: center;
 }
 
