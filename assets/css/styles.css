@@ -274,3 +274,14 @@ nav .burger-menu .line {
 .card2 {
     background-image: url(../images/james-jameson.jpg);
 }
+
+.card3 {
+    background-image: url(../images/stoney.jpg);
+}
+
+
+/***** footer *****/
+footer {
+    height: 75px;
+    background: linear-gradient(0deg, rgba(10,79,84,1) 0%, rgba(0,0,0,1) 100%);
+}
