@@ -13,7 +13,7 @@ body {
     font-family: Montserrat, sans-serif;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     font-family: 'Uncial Antiqua', Roboto, sans-serif;
 }
 
@@ -149,12 +149,12 @@ nav .burger-menu .line {
 
 .banner {
     width:100%;
-    height:700px;
+    height:550px;
 }
 
 .banner img {
     width: 100%;
-    height:700px;
+    height:550px;
     object-fit: cover;
     overflow: hidden;
     position: relative;
@@ -325,3 +325,33 @@ footer {
     color: #FFA500;
 }
 
+
+/********* events.html *********/
+
+.banner-events {
+    width:100%;
+    height:550px;
+    margin-top: 100px;
+}
+
+.banner-events img {
+    width: 100%;
+    height:550px;
+    object-fit: fill;
+    overflow: hidden;
+    position: relative;
+}
+
+.banner-events-text {
+    color: #FFA500;
+    text-shadow: 2px 2px #000000;
+    font-size: 2em;
+    font-style: italic;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    padding: 0 20px 0 20px;
+    position: absolute;
+    text-align: center;
+    bottom:50%;
+    left: 5%;
+}
