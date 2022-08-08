@@ -38,7 +38,7 @@ nav {
     top: 0;
     padding: 0 5%;
     font-family: 'Montserrat', sans-serif;
-    height: 100px;
+    height: 70px;
     background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(1, 50, 50, 1) 100%);
     /* background-color: #000000; */
 }
@@ -126,7 +126,7 @@ nav .burger-menu .line {
         z-index: 9;
         left: 0;
         right: 0;
-        top: 100px;
+        top: 70px;
         bottom: 100%;
         width: auto;
         height: auto;
@@ -336,13 +336,12 @@ footer {
 .banner-events {
     width:100%;
     height:550px;
-    margin-top: 100px;
+    margin-top: 70px;
 }
 
 .banner-events img {
     width: 100%;
-    /* height:550px; */
-    object-fit: fill;
+    object-fit: cover;
     overflow: hidden;
     position: relative;
 }
@@ -426,7 +425,7 @@ footer {
 
 /********** people.html **********/
 
-.banner-people {
+/* .banner-people {
     width:100%;
     height:550px;
     margin-top: 100px;
@@ -434,8 +433,18 @@ footer {
 
 .banner-people img {
     width: 100%;
-    /* height:550px; */
     object-fit: fill;
+    overflow: hidden;
+    position: relative;
+} */
+
+.banner-people {
+    margin-top: 70px;
+    background-image: url('../images/freney2.jpg');
+    background-position: no-repeat center;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
     overflow: hidden;
     position: relative;
 }
