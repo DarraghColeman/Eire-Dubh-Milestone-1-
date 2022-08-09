@@ -40,12 +40,28 @@ header, section {
     width: min(90%, 70.5rem);
 }
 
+.split {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 40em){
+    .split {
+        flex-direction: row;
+    }
+
+    .split > * {
+        flex-basis: 100%;
+    }
+}
+
 .text-center {
     text-align: center;
 }
 
 img {
     max-width: 100%;
+    display: block;
 }
 
 
