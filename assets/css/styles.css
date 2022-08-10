@@ -412,109 +412,120 @@ footer {
 
 /********** contact.html ***********/
 
-.contact {
-    position: relative;
-    min-height: 100vh;
-    padding: 50px 100px;
+.contact-page {
+    background: url(../images/darkhedges.jpg) no-repeat center center;
+    min-height: 90vh;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    background: url('../images/darkhedges.jpg');
-    background-size: cover;
-    color: #ffffff;
 }
 
-.contact .content {
-    max-width: 800px;
-    text-align: center;
-}
-
-.contact .content h2 {
-    font-size: 36px;
-    font-weight: 500;
-    color: #ffffff;
-}
-
-.contact .content p {
-    font-weight: 300;
-    color: #ffffff;
-}
-
-.container-contact {
+.contact-section {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
 }
 
-.container-contact .contact-info {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
+.contact-info {
+    color: #ffffff;
+    max-width: 500px;
+    line-height: 65px;
+    padding-left: 50px;
+    font-size: 18px;
 }
 
-.container-contact .contact-info .box {
-    position: relative;
-    padding: 20px 0;
-    display: flex;
-}
-
-.container-contact .contact-info .box .icon {
-    min-width: 60px;
-    height: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    font-size: 22px;
-}
-
-.container-contact .contact-info .box .text {
-    display: flex;
-    margin-left: 20px;
-    font-size: 16px;
-    color:#ffffff;
-    flex-direction: column;
-}
-
-.container-contact .contact-info .box .text h3 {
-    font-weight: 500;
-    color: #FFA500;
+.contact-info i {
+    margin-right: 20px;
+    font-size: 25px;
 }
 
 .contact-form {
-    width: 40%;
-    padding: 40px;
-    background: #ffffff;
+    max-width: 700px;
+    margin-right: 50px;
+}
+
+.contact-info, .contact-form {
+    flex: 1;
 }
 
 .contact-form h2 {
-    font-size: 30px;
-    color: #FFA500;
-    font-weight: 500;
+    color: #ffffff;
+    text-align: center;
+    font-size: 35px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
 }
 
-.contact-form .input-box {
-    position: relative;
-    width: 100%;
-    margin-top: 10px;
-}
-
-.contact-form .input-box input {
-    width: 100%;
-    padding: 5px 0;
-    font-size: 16px;
-    margin: 10px 0;
+.contact-form .contact-text-box {
+    background: #000;
+    color: #ffffff;
     border: none;
-    border-bottom: 2px solid #008000;
-    outline: none;
-    resize: none;
+    width: calc(50% - 10px);
+    height: 50px;
+    padding: 12px;
+    font-size: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px rgba(0,0,0,.1);
+    margin-bottom: 20px;
+    opacity: 0.9;
 }
 
-.contact-form .input-box span {
-    position: absolute;
-    left: 0;
-    
+.contact-form .contact-text-box:first-child {
+    margin-right: 15px;
+}
+
+.contact-form textarea {
+    background: #000;
+    color: #ffffff;
+    border: none;
+    width: 100%;
+    padding: 12px;
+    font-size: 15px;
+    min-height: 200px;
+    max-height: 400px;
+    resize: vertical;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px rgba(0,0,0,.1);
+    margin-bottom: 20px;
+    opacity: 0.9;
+}
+
+.contact-form .send-btn {
+    float: right;
+    background: #008000;
+    color: #dddddd;
+    border: none;
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact-form .send-btn:hover {
+    background-color:#FFA500;
+}
+
+@media screen and(min-width:768px){
+    .contact-section {
+        flex-direction: column;
+    }
+
+    .contact-info, .contact-form {
+        margin: 30px 50px;
+    }
+
+    .contact-form h2 {
+        font-size: 30px;
+    }
+
+    .contact-form .contact-text-box {
+        width: 100%;
+    }
 }
