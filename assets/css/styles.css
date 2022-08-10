@@ -35,7 +35,8 @@ header, section {
     padding: 2rem 0;
 }
 
-        @media (min-width:40em){
+                /* orignal min-width:50em */
+        @media (min-width:768px){
             header, section {
                 padding:4rem 0;
             }
@@ -52,7 +53,7 @@ header, section {
 }
 
 
-            @media (min-width: 40em){
+            @media (min-width: 768px){
                 .split {
                     flex-direction: row;
                 }
@@ -208,12 +209,12 @@ nav .burger-menu .line {
     position: relative;
 }
 
-@media (min-width:600px){
+/* @media (min-width:768px){
     .header, .header-image {
         margin-top: 0;
         padding-top: 0;
     }
-}
+} */
 
 #header-image {
     width: 100%;
