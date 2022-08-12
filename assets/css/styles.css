@@ -236,9 +236,16 @@ nav .burger-menu .line {
 }
 
 
+/********** index.html ************/
 
 
-/********* article links ***********/
+.split a {
+    text-decoration: underline;
+    font-style: italic;
+}
+
+
+/*** article links ***/
 .people-links {
     background-image: url('../images/darkhedges.jpg');
     display: flex;
@@ -277,7 +284,7 @@ nav .burger-menu .line {
     padding: 15px 20px;
     display: block;
     text-align: center;
-    margin: 20px 50px;
+    margin: 0px 50px;
     text-decoration: none;
 }
 
@@ -496,9 +503,9 @@ footer {
 
 .contact-form .send-btn {
     float: right;
-    background: #008000;
+    background-color: rgba(0,128,128,.6);
     color: #dddddd;
-    border: none;
+    border: 1px solid #ffffff;
     width: 120px;
     height: 40px;
     font-size: 15px;
