@@ -58,14 +58,7 @@ Other future features would be to include a 'Reccommended' page which would prom
 Testing
 Testing was taken across various browsers and screen sizes. I tested the site on Google Chrome, Mozilla Firefox, Microsoft Edge and Opera. Across all browsers the site responded and appeared identical from small screen devices up to large screens. However, through this testing I discovered a bug when opened with Firefox.
 The bug, in the footer section, consisted of misaligned bordered circles surrounding the social media icons. It only occurred when using Firefox inspect console with small devices lower than 440px. This seemed unusual as no properties or media queries were set as such. I attempted to rectify the problem through re-styling the circles but was unsuccessful. Some online research showed that other users found similar bugs with the Firefox inspect console, but rather than fully trusting in this and allowing the issue to remain,  as a small non-essential feature I decided to comment out the circles in the stylesheet for now.
-
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+All internal and external links working correctly across all browsers.
 
 Validator Testing
 HTML
