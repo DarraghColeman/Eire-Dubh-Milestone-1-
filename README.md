@@ -28,7 +28,9 @@ I want to be directed to external sources.
 I want an attractive aesthetic. 
 
  
+ 
 ### Returning/Frequent Visitor Goals
+
 
 As a returning/frequent visitor...
 
@@ -39,7 +41,12 @@ I want to be able to contact the author with comments, stories or corrections.
 I want to be reccommended external sources and media related to this site's theme.
 
 
+
 ## Responsive Mockup
+
+![](assets/images-readme/mockUp2.png)
+
+
 
 # Features
 
@@ -122,6 +129,10 @@ This page presented a styling bug where white space appeared both above and belo
 <img src="assets/images-readme/contact.png" width=600>
 <img src="assets/images-readme/contact-phone.jpg" width=200>
 
+## Extra Features
+
+Other minor features throughout the site are color transitions on hover with links and buttons, card animations, smooth scroll with internal links and transition on page load.
+
 
 ## Features Left to Implement
 
@@ -130,8 +141,8 @@ Javascript would also aid in functionality of the site such as drop-down menus, 
 
 ## Testing
 
-Testing was taken across various browsers and screen sizes. I tested the site on Google Chrome, Mozilla Firefox, Microsoft Edge and Opera. Across all browsers the site responded and appeared identical from small screen devices up to large screens. However, through this testing I discovered a bug when opened with Firefox.
-The bug, in the footer section, consisted of misaligned bordered circles surrounding the social media icons. It only occurred when using Firefox inspect console with small devices lower than 440px. This seemed unusual as no properties or media queries were set as such. I attempted to rectify the problem through re-styling the circles but was unsuccessful. Some online research showed that other users found similar bugs with the Firefox inspect console, but rather than fully trusting in this and allowing the issue to remain,  as a small non-essential feature I decided to comment out the circles in the stylesheet.
+Testing was taken across various screen sizes for responsiveness and browsers Google Chrome, Mozilla Firefox, Microsoft Edge and Opera. Across all browsers the site responded and appeared identical from small screen devices up to large screens. However, through this testing a bug was discovered when opened with Firefox.
+The bug, in the footer section, consisted of misaligned bordered circles surrounding the social media icons. It only occurred when using Firefox inspect console with small devices lower than 440px. This seemed unusual as no properties or media queries were set as such. An attempt to rectify the problem through re-styling the circles was unsuccessful. Some online research showed that other users found similar bugs with the Firefox inspect console, but rather than fully trusting in this and allowing the issue to remain,  as a small non-essential feature I decided to comment out the circles in the stylesheet.
 All internal and external links working correctly across all browsers.
 
 ## Validator Testing
@@ -162,13 +173,9 @@ In the end, what content and code that could be reused was saved and the project
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub)
+The site was deployed to GitHub pages.
 
-The site was deployed to GitHub pages. The steps to deploy are as follows:
-In the GitHub repository, navigate to the Settings tab
-From the source section drop-down menu, select the Master Branch
-Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html
+The live link can be found here - https://darraghcoleman.github.io/Eire-Dubh-Milestone-1-/places.html
 
 ## Credits:
 
