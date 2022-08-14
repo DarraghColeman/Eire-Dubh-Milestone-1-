@@ -99,6 +99,7 @@ The footer section includes links to social media sites Facebook, Instagram, Twi
 ### People page
 
 The People page follows the same layout of the 'Home' page without the cards section. Its content consists of three brief stories, each following the same layout of alternating image and text, and is divided by styled horizontal rules and headers. Each story also links to Wikipedia's longer more detailed articles about the figures.
+Another feature, in leu of Javascript, I added late in the project were internal links with a smooth scroll feature so that the visitor can easily jump to the desired article.
 
 ![](assets/images-readme/people.png)
 
