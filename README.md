@@ -124,8 +124,8 @@ This page presented a styling bug where white space appeared both above and belo
 
 ## Features Left to Implement
 
-Other future features would be to include a 'Reccommended' page which would promote authors, media, other websites or related content, and direct the user to them via links.
-Javascript would also aid in functionality of the site such as drop-down menus and zoom images.
+Future features would be to include a 'Reccommended' page which would promote authors, media, other websites or related content, and direct the user to them via links.
+Javascript would also aid in functionality of the site such as drop-down menus, zoom images and double linking within the site.
 
 ## Testing
 

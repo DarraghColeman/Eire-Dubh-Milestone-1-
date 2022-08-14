@@ -10,6 +10,10 @@
     box-sizing: border-box;
 }
 
+html { 
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: Montserrat, sans-serif;
     line-height: 1.6;
@@ -367,7 +371,23 @@ footer {
     color: #FFA500;
 }
 
+/****** people.html ******/
 
+.people-menu {
+    background: linear-gradient(45deg, black,teal);
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0 10px 0;
+    text-decoration: none;
+}
+
+.people-menu a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.people-menu a:hover {
+    color: #FFA500;
+}
 
 
 
@@ -392,7 +412,6 @@ footer {
 }
 
 .table thead tr {
-    /* background-color: rgba(0,128,128,.6); */
     background: linear-gradient(45deg, black,teal);
     color: #ffffff;
     text-align: left;
@@ -466,6 +485,12 @@ footer {
     font-size: 35px;
     text-transform: uppercase;
     margin-bottom: 30px;
+}
+
+.contact-form p {
+    color: #ffffff;
+    font-weight: 600;
+    text-align: center;
 }
 
 .contact-form .contact-text-box {
